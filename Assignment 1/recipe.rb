@@ -2,8 +2,7 @@ class Recipe
 
   @@all = []
 
-  attr_accessor :name
-  attr_reader :description
+  attr_accessor :name, :description
 
   def initialize(name, description)
     @name = name
